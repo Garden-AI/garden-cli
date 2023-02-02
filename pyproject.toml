@@ -6,11 +6,12 @@ authors = ["Owen Price Skelly", "Will Engler",
            "Ben Galewsky", "KJ Schmidt", "Aristana Scourtas", 
            "Eric Blau", "Ben Blaiszik <blaiszik@uchicago.edu>"]
 readme = "README.md"
-packages = [{include = "garden_cli"}]
+packages = [{include = "garden-cli"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 typer = "^0.7.0"
+garden-ai = "^0.0.4"
 
 
 [build-system]
